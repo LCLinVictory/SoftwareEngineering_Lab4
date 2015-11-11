@@ -4,7 +4,7 @@ from django.contrib import admin
 admin.autodiscover()
 
 from BookDB import views
-
+#Add for Lab4_(2)_C4
 urlpatterns = patterns('',
     url(r'^admin/', include(admin.site.urls)),
     url(r'^$',views.bookdb_hello),
